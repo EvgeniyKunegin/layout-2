@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    }
+
+body{
+    position: relative;
+    height: 100%;
+    
+    background-color: #e3f2fd;
+}
+
+.card{
+    position: absolute;
+    
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 967px;
+    padding:60px 70px 40px 70px;
+  
+    background-color:#fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 55px 0px rgba(181, 220, 248, 1);
+}
+
+.img-wrapper{
+    float: left;
+}
+
+.card-content-wrapper{
+    float: right;
+
+    padding-top: 10px;
+
+    width: 426px;
+}
+
+.card::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.book-label{
+    margin-bottom: 7px;
+    
+    font-family: "Noto Serif";
+    font-size: 18px;
+    font-weight: bold;
+    color: #bfc5c8;
+}
+
+.book-name {
+    margin-bottom: 22px;
+
+    font-family: "Noto Serif";
+    font-size: 38px;
+    font-weight: bold;
+    color: #01a4bd;
+
+    line-height: 1.2;
+}
+
+.book-description{
+    font-family: "PT Sans";
+    font-size: 15px;
+    color: #6c757f;
+
+    line-height: 1.2;
+ }
+
+ .book-description p {  
+    margin:0;
+    padding:0;
+}
+
+.book-price-label{
+    margin-bottom: 3px;
+
+    font-family: "Noto Serif";
+    font-size: 18px;
+    font-weight: bold;
+    color: #bfc5c8;
+}
+
+ .book-price{
+    margin-bottom: 39px;
+
+    font-family: "PT Sans";
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+
+    line-height: 1;
+ }
+
+ .button {
+     padding: 9px 35px 16px 35px;
+
+    background-color: #e2013b;
+    border-radius: 5px;
+
+    font-family: "PT Sans";
+    font-size: 24px;
+    color:white;
+    font-weight: bold;
+    line-height: 1;
+ }
+
